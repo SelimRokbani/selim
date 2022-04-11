@@ -1,0 +1,42 @@
+.all-games {
+  display: inline-block;
+  
+}
+.game {
+  border-style: none;
+  margin: 1rem 0;
+  padding: 0.5rem 0;
+}
+.games-calendar {
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em
+}
+
+.game:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.game-status {
+  padding: 0 0.5rem;
+  font-size: 0.8rem;
+}
+
+.score {
+  padding: 0 0.7rem;
+}
+
+@media screen and (max-width: 605px) {
+  .game-visitor_team {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .game-home_team {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+}

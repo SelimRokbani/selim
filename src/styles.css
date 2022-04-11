@@ -1,0 +1,72 @@
+:root {
+  background-image: url("/bg.jpg");
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    var(--main-blue) 50%,
+    var(--main-red) 50%
+  );
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+ 
+  padding-bottom: 10rem;
+}
+
+.App > .links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  background: transparent;
+}
+
+.links > li {
+  padding: 1.4rem 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.links > li > a {
+  color: white;
+}
+
+.links > li > a:hover {
+  color: var(--main-red);
+}
+
+.n-font {
+  font-size: 1.3rem;
+  font-family: "Oswald", sans-serif;
+}
+
+@media screen and (max-width: 1367px) {
+  .App {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 967px) {
+  body {
+    background: white;
+    margin: -1rem auto;
+  }
+  .App {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .n-font {
+    font-size: 2.5vw;
+  }
+}

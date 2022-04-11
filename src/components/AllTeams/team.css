@@ -1,0 +1,18 @@
+.teams {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 10rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 967px) {
+  .teams {
+    margin: 0 1rem;
+  }
+}
+@media screen and (max-width: 467px) {
+  .teams {
+    display: block;
+  }
+}

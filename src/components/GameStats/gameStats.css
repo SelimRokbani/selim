@@ -1,0 +1,38 @@
+@import "../../styles.css";
+
+.gameStats-status {
+  margin-bottom: 5rem;
+  color: #fff
+}
+.gameStats {
+  color: #fff;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.gameStats-players,
+.gameStats-stats {
+  display: flex;
+}
+.gameStats-players {
+  width: 60%;
+  margin: 3rem auto;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gameStats-stats {
+  margin: 0 auto;
+}
+
+.gameStats-player-team {
+  color: white;
+  margin: 0 1rem;
+}
+
+.stats {
+  padding: 0 4px;
+}
+
+.stats > h5 {
+  color: var(--main-blue);
+}

@@ -1,0 +1,35 @@
+.team-header {
+  color: white;
+  margin-top: -1rem;
+  padding-bottom: 4rem;
+}
+.team-header-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.team-logo {
+}
+.team_full-name {
+  align-self: center;
+  margin-left: 2rem;
+}
+
+.team-players > h3 {
+  padding: 0.5rem;
+  color: white;
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (max-width: 967px) {
+  .team-header {
+    padding-top: 1rem;
+  }
+  .team-header-name {
+    display: block;
+  }
+  .team_full-name {
+    margin-left: 0rem;
+  }
+}
